@@ -8,7 +8,7 @@ PG Life is a website which I have created using React ,PHP keeping in mind the c
 
 ##Download and Install any local web server such as XAMPP.
 
-##Download the provided source code zip file. (download button is located below)
+##Download the provided source code zip file. 
 
 ##System Installation/Setup
 
