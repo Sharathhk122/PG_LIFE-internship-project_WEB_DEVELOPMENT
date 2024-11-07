@@ -1,7 +1,20 @@
 # PG Life (Web Development Project)
 
 PG Life is a website which I have created using React ,PHP keeping in mind the challenges faced by the students to search for good accommodation when they join college/university.
+##How to Run?
+##Requirements
 
+##Download and Install any local web server such as XAMPP.
+##Download the provided source code zip file. (download button is located below)
+##System Installation/Setup
+
+##Open your XAMPP Control Panel and start Apache and MySQL.
+##Extract the downloaded source code zip file.
+##Copy the extracted source code folder and paste it into the XAMPP's "htdocs" directory.
+##Browse the PHPMyAdmin in a browser. i.e. http://localhost/phpmyadmin
+##Create a new database named hrm_db.
+##Import the provided SQL file. The file is known as hrm_db.sql located inside the db folder.
+##Browse the Human Resource Management System in a browser. i.e. http://localhost/hrm/.
 ## Project Screenshot
 PG Life website consists of 4-5 pages. 
 Index , Property List , Property Details , Dashboard etc.
