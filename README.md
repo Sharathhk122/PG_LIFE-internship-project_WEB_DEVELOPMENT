@@ -3,40 +3,97 @@
 ```markdown
 # PG Life - Full Stack Web Development Project
 
-**PG Life** is a web platform designed to help students find suitable accommodations near their colleges or universities. The platform is built with **React** for the frontend and **PHP** for the backend, offering a seamless experience for users looking for PG (paying guest) accommodations. This project aims to resolve the common challenges students face when searching for affordable and suitable living spaces by providing an easy-to-use interface with property listings, user profiles, and secure login.
+**PG Life** is a platform built to assist students in finding suitable paying guest (PG) accommodations near colleges and universities. The project is developed using **React** for the frontend and **PHP** for the backend, with a **MySQL** database to store user and property data. The platform simplifies the process of discovering properties with detailed listings, user ratings, and a user-friendly dashboard.
 
 ---
 
 ## Features
 
-- **User Registration & Authentication**: Allows users to sign up, log in, and manage their profiles.
-- **Property Listings**: Displays a list of available properties with details like rent, amenities, and location.
-- **Property Details**: Users can view more detailed information about a specific property, including images and ratings.
-- **Rating System**: Users can rate properties based on their experience.
-- **Admin Dashboard**: Admins can manage the property listings and approve or reject submitted properties.
-- **Responsive Design**: The website is designed to be fully responsive, ensuring a smooth experience across devices.
-- **Search & Filters**: Users can search properties based on criteria like location, rent, amenities, and more.
+- **User Registration & Authentication**: Users can sign up, log in, and manage their profiles.
+- **Property Listings**: View a list of properties with relevant details such as rent, amenities, and location.
+- **Property Details**: View more detailed information about each property, including images, descriptions, and ratings.
+- **Search & Filters**: Filter properties based on criteria such as location, rent, and amenities.
+- **Admin Dashboard**: Admin users can manage property listings, including approval or rejection of newly submitted properties.
+- **Responsive Design**: The website is fully responsive, ensuring an optimal experience on all devices.
+- **Rating System**: Users can rate the properties they have stayed in to provide feedback for other users.
 
 ---
 
 ## Tools Used
 
-- **React**: Frontend development.
-- **PHP**: Backend for handling user authentication and property management.
-- **MySQL**: Database to store user and property data.
-- **Bootstrap**: For responsive UI design and layout.
-- **jQuery**: For simplifying DOM manipulation.
+- **React**: Frontend development using React.
+- **PHP**: Backend development for handling user authentication and managing property listings.
+- **MySQL**: Database used to store user and property data.
+- **Bootstrap**: For building a responsive and attractive user interface.
+- **jQuery**: Used for DOM manipulation and AJAX requests.
 
 ![HTML5](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
+
+
+## Execution Process
+
+### Step 1: Clone the Repository
+
+First, clone the repository to your local machine:
+
+```bash
+git clone https://github.com/Sharathhk122/PG_LIFE-internship-project_WEB_DEVELOPMENT.git
+```
+
+### Step 2: Set Up the Frontend
+
+1. Navigate to the project directory:
+
+   ```bash
+   cd PG_LIFE-internship-project_WEB_DEVELOPMENT
+   ```
+
+2. Install the necessary dependencies for the React frontend:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the React development server:
+
+   ```bash
+   npm start
+   ```
+
+   This will start the React app on `http://localhost:3000` (or another available port).
+
+### Step 3: Set Up the Backend (PHP & MySQL)
+
+1. Set up a **PHP server** for the backend.
+   - You can use **XAMPP** or **WAMP** for local PHP server setup, or configure PHP on your machine directly.
+   
+2. Create a **MySQL database** and import the necessary tables and data.
+   - You may need to configure the PHP backend with your database credentials in the respective PHP files.
+
+3. Ensure the backend API is running to handle user authentication, property listings, and ratings.
+
+### Step 4: Configure the Backend & Frontend Connection
+
+Make sure the React frontend communicates properly with the PHP backend:
+- Update the frontend code to interact with the backend API for actions like login, registration, and property management.
+
+### Step 5: Access the Application
+
+Once both the frontend and backend are running, you can access the application by navigating to the React app URL:
+
+```plaintext
+http://localhost:3000
+```
+
 ---
 
 ## Screenshots
 
-Here are some screenshots of the **PG Life** web platform:
+Here are some screenshots of the **PG Life** platform:
 
 ### Index Page
 ![Index Page](https://user-images.githubusercontent.com/88366253/147323134-08a4b394-a4c1-4fad-b955-93cadeb681fb.png)
@@ -67,64 +124,6 @@ Here are some screenshots of the **PG Life** web platform:
 
 ---
 
-## Execution Process
-
-### Step 1: Set Up the Project
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/Sharathhk122/PG_LIFE-internship-project_WEB_DEVELOPMENT.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd PG_LIFE-internship-project_WEB_DEVELOPMENT
-   ```
-
-3. Install the necessary dependencies:
-   
-   - For the **frontend** (React):
-     ```bash
-     npm install
-     ```
-
-   - For the **backend** (PHP):
-     - Ensure PHP and MySQL are installed on your machine. Set up the backend by configuring the database and linking the frontend with the API endpoints.
-
-### Step 2: Start the Development Server
-
-- For **React** (frontend), run:
-  ```bash
-  npm start
-  ```
-
-- For **PHP** (backend), ensure the PHP server is running and connected to the MySQL database.
-
-### Step 3: Access the Application
-
-Open the browser and navigate to:
-```
-http://localhost:3000
-```
-You should be able to view the application and interact with it.
-
----
-
-## Additional Information
-
-- **Responsive Design**: The app is fully responsive, ensuring users have an optimal experience across devices, from desktop to mobile.
-- **Admin Features**: The platform provides an admin panel to manage listings, user feedback, and property details.
-- **User Interaction**: Users can filter property listings based on their preferences and rate properties they have stayed in.
-
----
-
-## License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
----
 
 ## Created By
 
